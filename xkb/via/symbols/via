@@ -95,6 +95,8 @@ xkb_symbols "ru" {
     key <AB06>	{[ Cyrillic_en   , Cyrillic_EN   , Cyrillic_e        , Cyrillic_E        ]}; // N
     key <AB07>	{[ Cyrillic_em   , Cyrillic_EM   , Cyrillic_softsign , Cyrillic_SOFTSIGN ]}; // M
 
+    key <AE11> { [   minus, underscore,    emdash,     endash ] };
+
     include "via(altgr)"
 };
 
